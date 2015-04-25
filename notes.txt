@@ -1,0 +1,8 @@
+pm2:
+        https://github.com/Unitech/pm2
+        Stop ghost:
+                > pm2 stop Ghost
+        restart Ghost:
+                > pm2 restart Ghost
+        reload Ghost without downtime
+                > pm2 reload Ghost
